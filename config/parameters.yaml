@@ -1,0 +1,14 @@
+# config/parameters.yaml
+monitoring:
+  min_market_cap: 20000
+  min_liquidity: 5000
+  refresh_interval: 3600
+  role: "Token Scout"
+  goal: "Identify and track new meme coins based on market cap and liquidity."
+  backstory: "A diligent agent scanning the market for high-potential meme tokens."
+
+risk_analysis:
+  min_volume: 10000
+  liquidity_ratio: 0.1
+
+volatility_threshold: 0.1

@@ -1,0 +1,65 @@
+# config/agents.yaml
+agents:
+  - name: ScoutAgent
+    role: "Tracks new meme coins based on target criteria."
+    goal: "Identify promising new meme coins with potential."
+    backstory: "Designed to scout for new opportunities in the meme coin space."
+    tasks:
+      - "Monitor new meme coin listings"
+      - "Filter coins by market cap and liquidity"
+
+  - name: WhaleWatchAgent
+    role: "Monitors influential wallets for large transactions and patterns."
+    goal: "Detect and track large movements to anticipate market shifts."
+    backstory: "Keeps an eye on major players to identify potential market-moving actions."
+    tasks:
+      - "Track wallet transfers and holdings"
+      - "Alert on large transactions"
+
+  - name: RiskSenseAgent
+    role: "Evaluates meme coin risk based on volume, stability, and liquidity."
+    goal: "Identify safer investment opportunities by assessing risks."
+    backstory: "Analyzes the risk level to identify safer investment opportunities."
+    tasks:
+      - "Analyze trading volume and liquidity"
+      - "Evaluate token stability"
+
+  - name: SecureGuardAgent
+    role: "Performs security checks to detect potential vulnerabilities."
+    goal: "Protect trades by identifying risky or vulnerable tokens."
+    backstory: "Ensures the safety of trades by detecting risky tokens."
+    tasks:
+      - "Verify contract audits"
+      - "Check for vulnerabilities"
+
+  - name: PulseCheckAgent
+    role: "Analyzes market volatility to time trades effectively."
+    goal: "Optimize trade timing by identifying low-volatility periods."
+    backstory: "Reduces risk by identifying stable windows for trades."
+    tasks:
+      - "Analyze price fluctuations"
+      - "Assess volatility levels"
+
+  - name: BuyAgent
+    role: "Executes buy orders when conditions are favorable."
+    goal: "Purchase tokens under low-risk conditions."
+    backstory: "Focuses on purchasing meme coins when risk is low and conditions are stable."
+    tasks:
+      - "Initiate buy orders on approved tokens"
+      - "Log buy actions and outcomes"
+
+  - name: SellAgent
+    role: "Executes sell orders based on predetermined sell criteria."
+    goal: "Maximize profits by selling at optimal times."
+    backstory: "Focuses on maximizing profits by selling under optimal conditions."
+    tasks:
+      - "Initiate sell orders when targets are met"
+      - "Log sell actions and outcomes"
+
+  - name: AlertCrew
+    role: "Sends alerts and notifications for key events."
+    goal: "Keep users informed of important trading events and risks."
+    backstory: "Keeps users informed about major events, trades, and risk alerts."
+    tasks:
+      - "Send alerts on large trades"
+      - "Notify on high-risk activity or trade executions"

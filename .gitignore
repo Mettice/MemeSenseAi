@@ -1,0 +1,24 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore config files with sensitive info
+config/api_keys.yaml
+config/wallets.yaml
+config/trading_config.yaml
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore any logs or temp files
+logs/
+*.log
+
+# Ignore generated files
+*.png
+*.jpg

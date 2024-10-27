@@ -1,0 +1,11 @@
+crewai
+requests
+pyyaml
+pandas
+python-dateutil
+sqlalchemy
+slack_sdk
+twilio
+
+
+

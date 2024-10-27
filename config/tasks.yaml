@@ -1,0 +1,41 @@
+# config/tasks.yaml
+tasks:
+  - name: MonitorCoins
+    description: "Fetches new meme coins and filters them based on market cap and liquidity criteria."
+    agent: ScoutAgent
+
+  - name: TrackWallet
+    description: "Monitors specified wallets for significant transfers, tracking whale and influencer activity."
+    agent: WhaleWatchAgent
+
+  - name: RiskAssessment
+    description: "Evaluates token risk by analyzing trading volume, liquidity ratio, and market stability."
+    agent: RiskSenseAgent
+
+  - name: SecurityVerification
+    description: "Performs security checks, including contract audits and known vulnerability assessments."
+    agent: SecureGuardAgent
+
+  - name: VolatilityCheck
+    description: "Analyzes market volatility and assesses trading windows for low-risk opportunities."
+    agent: PulseCheckAgent
+
+  - name: BuyDecision
+    description: "Assesses buy conditions and triggers BuyAgent when a token meets all purchase criteria."
+    agent: BuyAgent
+
+  - name: ExecuteBuy
+    description: "Executes buy orders based on low-risk conditions and stability criteria."
+    agent: BuyAgent
+
+  - name: SellDecision
+    description: "Evaluates sell conditions, checking price targets, profit level, or risk increase for sell signals."
+    agent: SellAgent
+
+  - name: ExecuteSell
+    description: "Executes sell orders based on conditions like price targets or market instability."
+    agent: SellAgent
+
+  - name: SendNotification
+    description: "Notifies users of important events, such as large trades, market volatility, or risk alerts."
+    agent: AlertCrew
